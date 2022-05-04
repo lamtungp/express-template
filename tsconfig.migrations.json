@@ -1,0 +1,5 @@
+{
+    "extends": "./tsconfig",
+    "files": ["config/index.ts", "config/sequelize.ts"],
+    "include": ["src/typings/*.ts", "src/seeders/*.js", "src/migrations/*.js"]
+}
